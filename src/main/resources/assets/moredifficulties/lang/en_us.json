@@ -1,0 +1,7 @@
+{
+  "options.difficulty.simple":"Simple",
+  "options.difficulty.simple.info": "Hostile mobs spawn but deal less damage. Hunger bar doesn't deplete.",
+  "options.difficulty.possible": "Possible",
+  "options.difficulty.possible.info": "Hostile mobs spawn and deal more damage. Hunger bar depletes faster and drains all health."
+
+}
