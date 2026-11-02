@@ -3,8 +3,9 @@
 	"package": "net.aleksandermg.moredifficulties.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
-		"DifficultyMixin"
+		"DifficultyMixin",
+		"DifficultyOptionScreenMixin",
+		"DifficultyGameTabMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
