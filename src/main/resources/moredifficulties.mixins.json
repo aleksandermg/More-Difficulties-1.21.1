@@ -1,16 +1,18 @@
 {
-	"required": true,
-	"package": "net.aleksandermg.moredifficulties.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"DifficultyMixin",
-		"DifficultyOptionScreenMixin",
-		"DifficultyGameTabMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "net.aleksandermg.moredifficulties.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DifficultyGameTabMixin",
+    "DifficultyMixin",
+    "DifficultyOptionScreenMixin",
+    "DifficultyRaidMixin",
+    "RaidTableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
