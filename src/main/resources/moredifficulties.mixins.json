@@ -3,7 +3,9 @@
   "package": "net.aleksandermg.moredifficulties.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "DifficultyFoodDataMixin",
     "DifficultyGameTabMixin",
+    "DifficultyInstanceMixin",
     "DifficultyMixin",
     "DifficultyOptionScreenMixin",
     "DifficultyRaidMixin",
