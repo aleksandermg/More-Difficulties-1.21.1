@@ -7,7 +7,9 @@
     "DifficultyGameTabMixin",
     "DifficultyInstanceMixin",
     "DifficultyMixin",
+    "DifficultyMobMixin",
     "DifficultyOptionScreenMixin",
+    "DifficultyPlayerMixin",
     "DifficultyRaidMixin",
     "RaidTableMixin"
   ],
