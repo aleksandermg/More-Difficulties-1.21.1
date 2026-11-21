@@ -5,6 +5,8 @@
   "mixins": [
     "DifficultyFoodDataMixin",
     "DifficultyGameTabMixin",
+    "DifficultyGhastMixin",
+    "DifficultyGhastMixin2",
     "DifficultyInstanceMixin",
     "DifficultyMixin",
     "DifficultyMobMixin",
