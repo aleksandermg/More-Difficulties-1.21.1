@@ -3,17 +3,32 @@
   "package": "net.aleksandermg.moredifficulties.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "DifficultyEnchantmentHelperMixin",
+    "DifficultyEnchantmentMixin",
     "DifficultyFoodDataMixin",
-    "DifficultyGameTabMixin",
-    "DifficultyGhastMixin",
-    "DifficultyGhastMixin2",
     "DifficultyInstanceMixin",
     "DifficultyMixin",
-    "DifficultyMobMixin",
-    "DifficultyOptionScreenMixin",
     "DifficultyPlayerMixin",
     "DifficultyRaidMixin",
-    "RaidTableMixin"
+    "DifficultyTotemMixin",
+    "RaidTableMixin",
+    "entity.DifficultyAbstractArrowMixin",
+    "entity.DifficultyAbstractSkeletonMixin",
+    "entity.DifficultyBeeMixin",
+    "entity.DifficultyCaveSpiderMixin",
+    "entity.DifficultyGhastMixin",
+    "entity.DifficultyGhastMixin2",
+    "entity.DifficultyGuardianMixin",
+    "entity.DifficultyMobMixin",
+    "entity.DifficultySkeletonTrapMixin",
+    "entity.DifficultySpiderMixin",
+    "entity.DifficultyWitherBossMixin",
+    "entity.DifficultyWitherSkullMixin",
+    "entity.DifficultyZombieMixin"
+  ],
+  "client": [
+    "client.DifficultyGameTabMixin",
+    "client.DifficultyOptionScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

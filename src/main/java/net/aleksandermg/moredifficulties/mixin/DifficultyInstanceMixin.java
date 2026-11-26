@@ -28,7 +28,7 @@ public class DifficultyInstanceMixin {
     }
 
     @Inject(at = @At("HEAD"),cancellable = true, method = "getSpecialMultiplier")
-    public void injectSpecialMultiplier(CallbackInfoReturnable<Float> cir) {
+    public void injectSpecialMultiplier(CallbackInfoReturnable<Float> cir) { // local difficulty
         if (this.base == Difficulty.valueOf("MOREDIFFICULTIES_POSSIBLE")) {
             cir.setReturnValue(this.effectiveDifficulty>10.0F ? 2.0F : (this.effectiveDifficulty/10.0F)*2.0F);
         }

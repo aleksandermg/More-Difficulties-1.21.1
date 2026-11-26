@@ -1,4 +1,4 @@
-package net.aleksandermg.moredifficulties.mixin;
+package net.aleksandermg.moredifficulties.mixin.client;
 
 import net.aleksandermg.moredifficulties.MoreDifficulties;
 

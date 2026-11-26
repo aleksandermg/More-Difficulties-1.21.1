@@ -1,4 +1,4 @@
-package net.aleksandermg.moredifficulties.mixin;
+package net.aleksandermg.moredifficulties.mixin.entity;
 
 import net.minecraft.world.Difficulty;
 import net.minecraft.world.entity.monster.Ghast;
